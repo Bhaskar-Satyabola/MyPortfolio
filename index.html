@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ebcb885d26.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Bhaskar</span><br> satyabola From India.</h1>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- -----------------------About----------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Welcome to my digital haven! I'm Bhaskar, a passionate front-end developer with a flair for crafting immersive and visually stunning web experiences. Currently pursuing my Master's in Computer Applications (MCA), I thrive at the dynamic intersection of creativity and technology. Armed with a robust skill set that spans HTML, CSS, JavaScript, and React, I bring ideas to life, transforming concepts into captivating user interfaces. Whether designing pixel-perfect layouts or seamlessly integrating cutting-edge functionality, I take pride in delivering not just websites but interactive journeys that leave a lasting impression. Join me on this exciting coding adventure where innovation meets precision, and every line of code tells a story. Let's build the future of the web together!
+                    </p>
+                
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills </p> 
+                    <p class="tab-links" onclick="opentab('experience')">Experience </p> 
+                    <p class="tab-links" onclick="opentab('education')">Education </p> 
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br> Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br> Static & Dynamic Website Development</li>
+                        <li><span>App Development</span><br> Building React apps</li> 
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023- Current</span><br> Freelancing Web Development</li>
+                        <li><span>2022- 2023</span><br> Intership at Affinzy</li> 
+                    </ul>
+                </div>
+                
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>2023</span><br>MCA from Manglayatan Uniersity(Pursuing)</li>
+                        <li><span>2022</span><br>P.G Diploma in Computer Application</li>
+                        <li><span>2019-2021</span><br>Dipoma in Computer Science & Engineering</li> 
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-------------------------- service--------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Bring your online vision to life with my web design services. I create websites that not only look fantastic but also work seamlessly. Whether you need a sleek portfolio, an easy-to-navigate online store, or a captivating blog, I've got you covered. Let's team up and make your online presence stand out
+                    </p>
+                <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        Immerse yourself in UI/UX design, where I blend creativity and functionality to create seamless, visually captivating user experiences. From intuitive interfaces to engaging journeys, my designs enhance user satisfaction. Whether launching a new product or revamping a platform, my services focus on crafting a delightful digital environment that exceeds expectations. Let's collaborate to elevate your brand through thoughtful, user-centric design.</p>
+                <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Delve into React app design, where I specialize in crafting dynamic, user-friendly applications. Utilizing the latest React technology, I bring your app ideas to life with a focus on both functionality and sleek UI. Whether it's a business tool or an interactive platform, my service guarantees a seamless and enjoyable user experience. Let's collaborate to turn your app vision into a standout reality in the digital landscape.</p>
+                <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ---------------------Portfolio----------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work1">
+                    <div class="layer">
+                        <h3>UI/UX Design</h3>
+                        <p>Elevating digital interactions through seamless and captivating UI/UX design</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work2">
+                    <div class="layer">
+                        <h3>Static & Dynamic Websites</h3>
+                        <p>Transforming ideas into visually stunning websites that leave a lasting impression.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work2">
+                    <div class="layer">
+                        <h3>React Apps</h3>
+                        <p>Bringing innovation to life through dynamic and user-friendly web app development.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!-------------------- Contact ------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> bhaskarsatyabola.bs11@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8650311239</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/bhaskr02?igsh=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/+918126663306"><i class="fa-brands fa-whatsapp"></i></a>
+                    <!-- <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©Bhaskar</p>
+    </div>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz9Kn6UIOsqRpiysgfOOsob1fdgw7RRoGDCtkUI4EvWBoK_Iv3B-0KruZJdcyxIABnP5A/exec'
+    const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+<script src="main.js"></script>
+</html>
